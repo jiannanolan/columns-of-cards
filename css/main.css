@@ -30,9 +30,9 @@ section {
 
 img {
   width: 100%;
-  padding-top: .8rem;
-  padding-bottom: .8rem;
-  max-width: 7em;
+  padding-top: .75rem;
+  padding-bottom: 1.5rem;
+  max-width: 6.3em;
 }
 
 h2 {
@@ -49,15 +49,16 @@ body {
 
 h3 {
   margin: 0;
-  font-size: .875rem;
+  font-size: 1rem;
   text-align: left;
+  padding-left: .75rem;
 }
 
 ol {
   list-style: none;
   margin: 0;
-  padding: 0;
-  font-size: .875rem;
+  padding-left: .75rem;
+  font-size: 1rem;
   text-align: left;
 }
 
@@ -71,18 +72,23 @@ p {
 
 .one {
   background-color: #e2e2e2;
+  border-left: .05em solid #333;
 }
 
 .two {
   background-color: #ccc;
+  border-left: .05em solid #333;
+  border-right: .05em solid #333;
 }
 
 .three {
   background-color: #aaa;
+  border-right: .05em solid #333;
 }
 
 .four {
   background-color: #999;
+  border-right: .05em solid #333;
 }
 
 .all {
@@ -97,20 +103,15 @@ p {
   background-color: #333;
   border-radius: 8px;
   font-size: 1.25rem;
-  padding-left: .4em;
-  padding-right: .4em;
-  padding-top: .4em;
-  padding-bottom: .4em;
+  padding-left: .75em;
+  padding-right: .75em;
+  padding-top: .75em;
+  padding-bottom: .75em;
+  color: #f2f2f2;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .btn-small {
     font-size: .875rem;
 }
-
-Text sizes: 2rem, .875rem
-Line height: 1.5
-Colours: #f2f2f2, #333, #e2e2e2, #ccc, #aaa, #999
-Paddings: 1.5rem, .75rem
-Margins: 0, 0 auto 1.5rem, 0 0 1.5rem
-Image width: 100px
-The button is .btn & .btn-small from our buttons exercise.
