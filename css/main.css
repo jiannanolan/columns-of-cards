@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   margin: 0;
   background-color: #f2f2f2;
@@ -9,7 +9,6 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-
 
 header {
   margin: 0;
@@ -25,6 +24,7 @@ section {
   text-align: center;
   display: inline-block;
   width: 25%;
+  float: left;
 }
 
 img {
@@ -33,7 +33,6 @@ img {
   padding-bottom: 1.5rem;
   max-width: 6.3em;
   display: block;
-  margin: auto;
   margin: auto;
 }
 
@@ -115,7 +114,7 @@ p {
 }
 
 .btn-small {
-    font-size: .875rem;
+  font-size: .875rem;
 }
 
 .btn:hover {
