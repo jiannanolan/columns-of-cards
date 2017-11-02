@@ -25,7 +25,6 @@ section {
   text-align: center;
   display: inline-block;
   width: 25%;
-  float: left;
 }
 
 img {
@@ -33,6 +32,9 @@ img {
   padding-top: .75rem;
   padding-bottom: 1.5rem;
   max-width: 6.3em;
+  display: block;
+  margin: auto;
+  margin: auto;
 }
 
 h2 {
@@ -114,4 +116,8 @@ p {
 
 .btn-small {
     font-size: .875rem;
+}
+
+.btn:hover {
+  background-color: #fff;
 }
