@@ -32,7 +32,7 @@ img {
   width: 100%;
   padding-top: .8rem;
   padding-bottom: .8rem;
-  max-width: 6em;
+  max-width: 7em;
 }
 
 h2 {
@@ -83,6 +83,28 @@ p {
 
 .four {
   background-color: #999;
+}
+
+.all {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  padding-left: .4em;
+  padding-right: .4em;
+  padding-top: .4em;
+  padding-bottom: .4em;
+}
+
+.btn-small {
+    font-size: .875rem;
 }
 
 Text sizes: 2rem, .875rem
